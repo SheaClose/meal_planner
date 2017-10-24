@@ -1,0 +1,38 @@
+.home_bg_img {
+  display: flex;
+  align-items: center;
+}
+.home_bg_img {
+  position: relative;
+  overflow: hidden;
+  min-height: 90vh;
+}
+.home_bg_img section {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+.home_bg_img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 90vh;
+  z-index: 1;
+  opacity: 0.2;
+}
+.sans {
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.home_container {
+}
+.home_container > * {
+  margin-top: 50px;
+}
+.wide {
+  background-color: #f06926;
+  width: 40%;
+  color: white;
+}
